@@ -10,7 +10,7 @@ var runApp = function() {
   console.log(config);
   chrome.app.window.create(
       config ?
-      'exported_app_view.html' :
+      'index.html' :
       'designer_view.html',
       {
         id: 'KioskDesignerWindow',
